@@ -1,7 +1,9 @@
 // Write a function  that checks if an array contains at least one even number. Use the some() method.
 
 function hasEven(arr) {
-  return arr.some((num) => num % 2 === 0);
+  return arr.some(function (num) {
+    return num % 2 === 0;
+  });
 }
 
 console.log(
