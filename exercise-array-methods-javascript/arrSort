@@ -1,0 +1,12 @@
+let arrSort = [0, 2, 5, 8, 1];
+let arrSort1 = [0, 1, 2, 3, 4, 5];
+
+arrSort.sort((a, b) => a - b);
+arrSort1.sort((a, b) => b - a);
+
+console.log(arrSort);
+console.log(arrSort1);
+
+// let words = ["banana", "Apple", "orange", "grape"];
+// words.sort((a, b) => b - a);
+// console.log(words);
